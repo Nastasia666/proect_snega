@@ -1,0 +1,2284 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+@font-face {
+    font-family: 'monchancellor.otf';
+    src: url(../style/fonts/monchancellor.otf);
+}
+
+
+
+/* ШАПКА */
+.header {
+    background-color: #F4F4F4 !important;
+    color: black;
+}
+
+
+
+
+
+/* ВСЕ ФОТО*/
+.bannerglav {
+    width: 100%;
+    height: 463px;
+    object-fit: cover;
+}
+img.bannerfood{
+    width: 100%;
+    height: 241px;
+    object-fit: cover;
+    margin-bottom: 80px;
+}
+.marg {
+    margin-top: 60px;
+}
+.kolonks_1, .kolonks_2, .kolonks_4, .kolonks_3{
+    padding-top: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+/* картинки на главной странице 3 штуки которые */
+.photo_glav_obzor {
+    display: inline;
+}
+.photo_glav_obzor2 {
+    display: none;
+}
+img.photo_glav{
+    width: 373px !important;
+    height: 300px !important;
+}
+
+
+
+
+/* ТЕКСТ НА ГЛАВНОЙ СТРАНИЦЕ-ТЕКСТ ВЕЗДЕ */
+h2, h4{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'monchancellor.otf';
+}
+a, h5, td, button{
+    font-size: 20px !important;
+    font-family: 'ZenOldMincho-Black.ttf';
+}
+p.text{
+    FONT-SIZE: 32px;
+    text-align: center;
+    padding-top: 22px;
+}
+.text_glav1{
+    width: 900px;
+    margin: 0 auto;
+}
+p{
+    font-family: 'ZenOldMincho-Black.ttf';
+}
+.glav_text_hi{
+    text-align: center;
+    font-size: 24px;
+}
+.text{
+    background-color: #CAE3FF;
+    width: 100%;
+    height: 100px;
+}
+.nomer_food{
+    bottom: 500px !important;
+}
+.bloc_food .table {
+    border-bottom: #00000000;
+}
+.bloc_food .table td {
+    text-align: start;
+}
+p.nom, .contacttt, .fd{
+    font-size: 50px !important;
+    text-align: center;
+}
+.summa{
+    color: #6F6116;
+    font-size: 20px;
+    /* margin: 0; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 47px;
+}
+.summaa{
+    color: #6F6116;
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.bron{
+    font-size: 15px;
+    text-align: left !important;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+option.name_block{
+    font-family: 'ZenOldMincho-Black.ttf' !important;
+}
+.prokat, .parkovka, .service, .taxi{
+    font-size: 30px;
+}
+.tel{
+    font-size: 16px !important;
+    color: black;
+    text-decoration: none;
+}
+p.name_glav{
+    font-family: 'monchancellor.otf' !important;
+    text-align: center;
+    font-size: 28px !important;
+}
+.zagol_modal{
+    font-size: 20px;
+}
+.knopka_people_modal{
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    border-color: #D9D9D9;
+    color: #000000;
+    float: right;
+}
+.photo{
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+img.bronirovanie{
+    width: 365px;
+    margin-right: 10px;
+}
+img.yslyga{
+    width: 365px;
+    margin-right: 10px;
+}
+img.akva_index{
+    width: 365px;
+}
+.photo_servise_glav{
+    max-width: 369px;
+}
+
+
+
+
+
+/* АКВА СТРАНИЦА */
+.text_akva1 p, .text_akva2_1 p, .text_akva3_1 p, .text_akva4_1 p{
+    font-size: 28px;
+    text-align: justify;
+}
+.akva_komplex {
+    margin: 0px;
+}
+.text p{
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    color: #5B5454;
+    font-size: 35px;
+}
+.photo_akva1, .photo_akva2, .photo_akva3, .photo_akva2_1, .photo_akva2_2, .photo_akva2_3,.photo_akva3_1, .photo_akva3_2, .photo_akva3_3, .photo_akva4_1, .photo_akva4_2, .photo_akva4_3{
+    max-width: 428px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.container_akva1, .container_akva2, .container_akva3, .container_akva4{
+    margin-right: 244px;
+}
+
+
+
+
+
+
+
+
+/* АППАРТАМЕНТЫ */
+.nomer{
+    position: sticky !important;
+}
+.izbr{
+    margin: 0;
+    width: 40px;
+    background: unset;
+    border: unset;
+}
+.izbr img{
+    width: 40px;
+} 
+.izbr_form{
+    display: flex;
+    justify-content: flex-end;
+}
+.bannernomer, .bannercontact{
+    width: 100%;
+    height: 411px;
+    object-fit: cover;
+}
+.nomer{ /*этот класс принадлежит странице аппартаменты и питание */
+    background-color: #575757f2;
+    width: 250px !important;
+    position: absolute;/*центрирование */
+    bottom: 283px !important;
+    color: white;
+    top:  45%;/*центрирование */
+    left: 50%;/*центрирование */
+    transform: translate(-50%,-50%);
+    /* тень */
+    width: 70%;
+    max-width: 250px;
+    margin: 1 auto;
+    box-shadow: 0 0 10px 5px rgb(41, 40, 40);
+}
+.container_img .row>* {
+    padding-right: unset !important;
+    padding-left: unset !important;
+}
+.container_img .col-6 {
+    padding-right: 0 !important;
+}
+.container_img img {
+    width: 100%;
+}
+.row_colonka_text{
+    width: 400px;
+}
+#knopka_kupit {
+    display: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+  }
+.knopka_kupit{
+    width: 154px;
+    height: 34px !important;
+    background-color: #81610E !important;
+    border-radius: 16px !important;
+    margin-right: 125px !important;
+    font-size: 17px !important;
+    color: white; /*перекраска a на странице nomer2*/
+}
+ .knopka_kupit a{ /*убрать подчеркивание у кнопки с сылкой*/
+    color: #fdfdfd !important;
+    text-decoration: none !important;
+}
+.knopka_people, .knopka_kupit{
+    position: relative;
+    left: 59%;
+    transform: translate(-50%, 0);
+}
+.knopka_brooking{
+    margin: 0 auto;
+    /* position: relative;
+    left: 50%;
+    transform: translate(-50%, 0); */
+}
+#knopka_kupit.open {
+    display: block;
+  }
+  .container_img{
+    margin-right: 170px !important;
+  }
+.col-6 .text_akva_podtext22{
+    font-size: 20px;
+    text-align: left;
+}
+.text_akva_zagol1{
+    font-size: 27px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 13%;
+    font-family: 'monchancellor.otf'
+}
+.info_block {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+}
+.nomer_table{
+    text-align: center;
+}
+.col-6 img{
+    max-width: 600px;
+}
+.booking{
+    max-width: 800px;
+}
+.knopka_brooking{
+    border-style: none !important;
+    font-size: 20px;
+    text-align: center;
+    background-color: #CFE6FF!important;
+}
+.knopka_brooking_color {
+    background-color: #CFE6FF !important;
+    display: flex;
+    max-height: 54px;
+    height: 100%;
+}
+.booking {
+    background-color: #CFE6FF!important;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    padding-right: 5px;
+}
+.booking1  {
+    position: relative;
+}
+.row_nomer2 {
+    display: flex;
+    justify-content: center;
+}
+.row_nomer2 input {
+    max-width: 120px;
+    width: 100%;
+}
+.booking1 .row_nomer2 {
+    max-width: 1059px;
+    width: 100%;
+    height: 63px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -42px;
+    left: auto;
+    flex-wrap: wrap;
+}
+.arrival, .exitss, .guests{
+    width: 50px;
+}
+.form1{
+    width: 100px;
+}
+.car, .personal, .mountain_activities, .hiking, .rental img{
+    width: 200px;
+}
+.oplata{
+    font-size: 23px;
+}
+.butt_oplata1, .butt_oplata2, .butt_oplata3, .butt_oplata4, .butt_oplata5{
+    width: 90px;
+    font-size: 15px !important;
+}
+.kopka_opl{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 15px !important;
+}
+.inf_broni{
+    display: flex;
+    padding-right: 12px;    
+    flex-wrap: wrap;
+}
+.date_zaezd, .date_vezd{
+    height: 20px !important;
+    margin-top: 16px;
+}
+.people_inf_date{
+    max-height: 20px !important;
+    margin-top: 15px;
+    
+}
+
+
+
+
+
+
+
+/* Услуги */
+.block_text_inforn{
+    width: 45%;
+}
+.block_parcovkaa{
+    width: 45% !important;
+}
+.ysluga_img{
+    display: flex;
+    justify-content: space-between;
+}
+.bloc_parkcivcka{
+    width: 59% !important;
+    margin: 0 auto;
+    text-align: justify;
+}
+.col_ysluga_img, .parcovka{
+    width: 45% !important;
+}
+.parcovka{
+    height: 259px !important;
+    object-fit: cover;
+}
+.gor, .tacxi{
+    text-align: left;
+}
+.name_ysluga, .ysluga_imgg{
+    text-align: left;
+}  
+.taxi_zagol, .parcovka_zagol, .gor_zagol, .poxod_zagol{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'monchancellor.otf';
+}
+.procat_zagol{
+    font-size: 27px;
+    font-family: 'monchancellor.otf';
+}
+.description_taxi, .description_parcovka, .description_gor, .description_poxod, .description_procat{
+    text-align: left;
+    text-align: justify;
+    font-size: 22px;
+}
+.description_procat{
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* контакты */
+.marg{
+    font-size: 22px;
+}
+.politika{
+    text-align: justify;
+    font-size: 20px;
+}
+.contact_textt{
+    background-color: #575757db;
+    width: 250px !important;
+    margin: 0 auto !important;
+    position: fixed !important;
+    top: 50vh;
+    bottom: 168px;
+    padding-top: 9px;
+    right: 594px;
+    color: white;
+    width: 70%;
+    max-width: 250px;
+    margin: 1 auto;
+    box-shadow: 0 0 10px 5px rgb(41, 40, 40);
+}
+p.nom, .contacttt, .fd{
+    font-size: 50px !important;
+    text-align: center;
+}
+div.row_ttt{
+    margin: 0 auto;
+}
+.podopic, .podopic2, .podopic3, 
+.podopic4{
+    margin: 0 auto;
+    max-width: 219px;
+    width: 100%;
+    font-size: 24px;
+}
+.contact_contain a{
+    text-decoration: none; /* убрать подчеркивание */
+    color: black;
+}
+
+img.visitca_cont{
+    max-height: 550px;
+    position: absolute;
+    max-width: 1076px;
+    width: 100%;
+}
+.color_none{
+    background-color: #d9d9d9da;
+    max-width: 800px;
+    width: 100%;
+    height: 398px;
+    position: relative;
+    margin: 0 auto;
+    top: 28px;
+}
+.contact_contain{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* питание */
+div.cont_breakfast{
+    border: 1px solid #000000 !important;
+    max-width: 495px !important;
+     border-left: none !important; /*убирает одну из сторон */
+}
+div.cont_salads{
+    border: 1px solid #000000 !important;
+    max-width: 495px !important;
+     border-right: none !important; /*убирает одну из сторон */
+}
+div.cont_snacks{
+    border: 1px solid #000000 !important;
+    max-width: 495px !important;
+     border-left: none !important; /*убирает одну из сторон */
+}
+div.cont_dessert{
+    border: 1px solid #000000 !important;
+    max-width: 495px !important;
+    border-right: none !important;
+    margin-bottom: 10px;
+}
+div.cont_drinks{
+    border: 1px solid #000000 !important;
+    max-width: 495px !important;
+     border-left: none !important; /*убирает одну из сторон */
+}
+div.cont_snacks{
+    border: 1px solid #000000 !important;
+    max-width: 495px !important;
+     border-left: none !important; /*убирает одну из сторон */
+}
+.zavtral_food, .salat, .xolod_zakyski, .deser_foog, .gor_zakuski, .napitki_food, .alk_napitki, .dop_yslug_food{
+    width: 40px !important;
+}
+.cont_breakfast, .cont_salads, .cont_snacks, .cont_dessert, .cont_drinks, .cont_snacks, .cont_drinks, .cont_snacks{
+    display: flex;
+}
+.breakfast, .hot_drinks, .snacks, .salat{
+    padding-right: 5px;
+}
+.breakfast, .snacks, .hot_drinks, .salads, .desserts{
+    text-align: left !important;
+    font-size: 25px !important;
+    margin: 0;
+}
+p.menu_breakfest, .menu_salads,  .menu_snacks, .menu_desserts, .menu_drinks, .menu_snacks{
+    text-align: left !important;
+    font-size: 20px !important;
+}
+.modal-header {
+    border-bottom: #00000000 !important;
+}
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* ЛИЧНЫЙ КАБИНЕТ */
+h2{
+    text-align: center;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.forma{
+    font-size: 20px;
+    display: block;
+    justify-content: center;
+    text-align: flex-start;
+}
+.forma_zagol{
+    margin-left: 30px;
+}
+div.photo{
+    max-width: 410px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 116px;
+    margin-left: -74px;
+}
+img.ava{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 293px
+}
+p.hi{
+    font-size: 40px !important;
+    text-align: center;
+}
+.table{
+    max-width: 1300px !important;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-top: 5px;
+}
+div.otzov{
+    width: 250px;
+    height: 190px;
+    background-color: #FFC5E4 !important;
+    
+}
+#registrationSuccess {
+    margin-top: 20px;
+}
+div.yslug{
+    width: 250px;
+    height: 190px;
+    background-color: #EFFFC0!important;
+    
+}
+.yslug_acc_p{
+    max-width: 317px;
+}
+div.taxi1{
+    max-width: 286px !important;
+    height: 192px !important;
+    width: 100% !important;
+}
+div.taxi{
+    width: 250px;
+    height: 190px;
+    background-color: #E4E4FF !important;
+}
+div.phone{
+    width: 250px;
+    height: 190px;
+    background-color: #EAE3A8 !important;
+}
+.ozovik{
+    font-size: 26px;
+    text-align: left !important;
+}
+.ysluga1{
+    width: 300px !important;
+}
+.yslug2{
+    width: 250px;
+    height: 190px;
+    background-color: #ccf5ff!important;
+    font-size: 27px !important;
+}
+p.ozovik2{
+    font-size: 27px !important;
+    text-align: left !important;
+    
+}
+a.text_a_ozovil2{
+    font-style: 27px !important;
+    color: black !important;
+    text-decoration: none !important;
+}
+.acc_inf_user{
+    max-width: 1000px;
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.taxiki, .inf_user, .name_bron, .broni_namess{
+    color: #000000 !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    font-size: 27px !important;
+}
+
+img.card_broni_lk{
+    max-width: 200px !important;
+    display: flex;
+    margin: 0 auto;
+}
+.card_broni{
+    height: 465px;
+    margin-right: 30px;
+    margin-top: 20px;
+    
+}
+.card_lk_broninew{
+    display: flex;
+    justify-content: center !important;
+    /* margin-left: 50px; */
+  /*Это сделано чтобы карточка была размещена по центру*/
+  align-items: center !important;
+  /*Это сделано чтобы карточка была размещена по центру*/
+  display: inline-block;
+}
+div.ikonki_acc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    max-width: 955px;
+    width: 100%;
+    margin: 0 auto;
+}
+.block_popular .col {
+    display: flex;
+    justify-content: center;
+}
+.ikonki_acc .forma {
+    display: block;
+    width: 100%;
+}
+div.broni{
+    margin-top: 40px;
+    border-radius: 61px;
+    max-width: 955px;
+    width: 100%;
+    align-items: center;
+    /* height: 393px; */
+    padding-top: 30px;
+    display: flex !important;
+    justify-content: space-between !important;
+    margin: 0 auto;
+    flex-wrap: wrap !important;
+}
+.glav_bron {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+}
+div.card_broni{
+    height: 338px !important;
+}
+div.card_favorites{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+img.photo_nomer{
+    width: 100px;
+}
+.dobbi{
+    display: flex;
+    justify-content: center;
+}
+.favourites_acc{
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+img.favourites{
+    max-width: 40px;
+}
+.booking1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.ysl{
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+.data{
+    width: 70px; 
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+.inf_modal{
+    background-color: #CBE3FF;
+    max-width: 302px;
+    max-height: 373px;
+}
+.booking2{
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.popular_broni {
+    display: flex;
+    justify-content: center;
+}
+.popular_broni, .block_popular {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ФУТЕР */
+.footer{
+    background-color: #F4F4F4;
+    margin-top: 50px;
+}
+.prava{
+    margin-top: 90px;
+}
+.text_footer{
+    margin-left: 50px;
+}
+/* Я ПЕРЕДВИНУЛА СЮДА, МОЖЕШЬ В ДРУГОЕ МЕСТО ПОСТАВИТЬ */
+.text_glav_hii22222, .photo2, .container_akva1111111, .container_akva22121, .container_akva3333333, .container_akva4444444{
+    display: none;
+}
+
+/* Стили для начальной ширины экрана */
+.container_colon_food .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_colon_food .col {
+    flex: 1 1 50%;
+}
+
+.bloc_food2{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.block222{
+    display: none;
+}
+
+.container_accc{
+    display: block;
+    justify-content: center;
+}
+
+
+.glav_bron {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 10px 0;
+}
+.bloki_acc_adap{
+    max-width: 252px !important;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+    /* border: 1px solid #dddddd00; */
+  }
+  .card_favorites, .card_lk_broninew{
+    display: flex !important; 
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+   
+}
+  .table img.photo_nomer {
+    max-width: 100px;
+  }
+/* Адаптивка */
+/* @media (max-width: 683px) {
+    .table {
+      /* display: block; */
+      /* overflow-x: auto; */
+      /* white-space: nowrap; *
+    }
+  } */
+  @media (max-width: 363px){
+    .container_colon_food{
+        min-width: 200px !important;
+        width: 100%;
+    }
+}
+  @media (max-width: 320px) {
+    .table img.photo_nomer {
+      max-width: 50px;
+    }
+  
+    .table th, .table td {
+      padding: 5px;
+    }
+  }
+/* Медиа-запросы для адаптивности */
+@media (max-width: 954px) {
+    .popular_broni .row .col {
+        /* flex: 0 0 50%; */
+        /* max-width: 50%;
+        min-height: 800px;
+        height: 100%; */
+    }
+}
+@media (max-width: 965px) {
+    .popular_broni{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 767px) {
+    .popular_broni .row .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 539px) {
+    p.hi {
+        font-size: 28px !important;
+    }
+}
+@media (max-width: 408px) {
+    p.hi {
+        font-size: 22px !important;
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+    .card_favorites, .card_lk_broninew{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 auto !important;
+    }
+    .card-body {
+        text-align: center;
+    }
+
+    .btn.bg-warning {
+        width: 100%;
+    }
+}
+@media (max-width: 1499px){
+    .booking1 .row {
+        bottom: 108px;
+    }
+}
+@media (max-width: 1076px){
+    .podopic, .podopic2, .podopic3, .podopic4 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1072px){
+    .color_none {
+        top: 29px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .img_con_visit{
+        max-width: 800px;
+        width: 100%;
+        max-height: 398px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+@media (max-width: 1054px){
+    .color_none {
+        top: 26px;
+    }
+}
+@media (max-width: 1042px){
+    .color_none {
+        top: 17px;
+    }
+}
+/* @media (max-width: 1047px){
+    .card_lk_broninew {
+        margin-left: 146px;
+    }
+}
+@media (max-width: 986px){
+    .card_lk_broninew {
+        margin-left: 126px;
+    }
+}
+@media (max-width: 957px){
+    .card_lk_broninew {
+        margin-left: 117px;
+    }
+}
+@media (max-width: 931px){
+    .card_lk_broninew {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 878px){
+    .card_lk_broninew {
+        margin-left: 92px;
+    }
+}
+@media (max-width: 846px){
+    .card_lk_broninew {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 822px){
+    .card_lk_broninew {
+        margin-left: 73px;
+    }
+}
+@media (max-width: 803px){
+    .card_lk_broninew {
+        margin-left: 67px;
+    }
+}
+@media (max-width: 777px){
+    .card_lk_broninew {
+        margin-left: 56px;
+    }
+}
+@media (max-width: 757px){
+    .card_lk_broninew {
+        margin-left: 49px;
+    }
+}
+@media (max-width: 735px){
+    .card_lk_broninew {
+        margin-left: 43px;
+    }
+}
+@media (max-width: 714px){
+    .card_lk_broninew {
+        margin-left: 38px;
+    }
+}
+@media (max-width: 688px){
+    .card_lk_broninew {
+        margin-left: 28px;
+    }
+}
+@media (max-width: 669px){
+    .card_lk_broninew {
+        margin-left: 22px;
+    }
+}
+@media (max-width: 653px){
+    .card_lk_broninew {
+        margin-left: 18px;
+    }
+}
+@media (max-width: 640px){
+    .card_lk_broninew {
+        margin-left: 164px;
+    }
+}
+@media (max-width: 618px){
+    .card_lk_broninew {
+        margin-left: 156px;
+    }
+}
+@media (max-width: 566px){
+    .card_lk_broninew {
+        margin-left: 133px;
+    }
+}
+@media (max-width: 545px){
+    .card_lk_broninew {
+        margin-left: 119px;
+    }
+}
+@media (max-width: 516px){
+    .card_lk_broninew {
+        margin-left: 101px;
+    }
+}
+@media (max-width: 500px){
+    .card_lk_broninew {
+        margin-left: 94px;
+    }
+}
+@media (max-width: 474px){
+    .card_lk_broninew {
+        margin-left: 85px;
+    }
+}
+@media (max-width: 453px){
+    .card_lk_broninew {
+        margin-left: 73px;
+    }
+}
+@media (max-width: 423px){
+    .card_lk_broninew {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 407px){
+    .card_lk_broninew {
+        margin-left: 49px;
+    }
+}
+@media (max-width: 388px){
+    .card_lk_broninew {
+        margin-left: 42px;
+    }
+}
+@media (max-width: 375px){
+    .card_lk_broninew {
+        margin-left: 34px;
+    }
+}
+@media (max-width: 362px){
+    .card_lk_broninew {
+        margin-left: 28px;
+    }
+}
+@media (max-width: 352px){
+    .card_lk_broninew {
+        margin-left: 21px;
+    }
+}
+@media (max-width: 342px){
+    .card_lk_broninew {
+        margin-left: 16px;
+    }
+}
+@media (max-width: 334px){
+    .card_lk_broninew {
+        margin-left: 11px;
+    }
+}
+@media (max-width: 323px){
+    .card_lk_broninew {
+        margin-left: 6px;
+    }
+}
+@media (max-width: 317px){
+    .card_lk_broninew {
+        margin-left: 3px;
+    }
+}
+@media (max-width: 907px){
+    .card_lk_broninew {
+        margin-left: 110px;
+    }
+} */
+@media (max-width: 1013px){
+    .color_none {
+        top: 14px;
+    }
+}
+@media (max-width: 997px){
+    .color_none {
+        top: 10px;
+    }
+}
+@media (max-width: 986px){
+    .color_none {
+        top: 8px;
+    }
+}
+@media (max-width: 973px){
+    .color_none {
+        top: 5px;
+    }
+}
+@media (max-width: 959px){
+    .color_none {
+        top: 2px;
+    }
+}
+@media (max-width: 951px){
+    .color_none {
+        top: 1px;
+    }
+    .visitca_cont{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .podopic, .podopic2, .podopic3, .podopic4 {
+        font-size: 15px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .podopic{
+        width: 132px;
+    }
+    .kolonks_1, .kolonks_2, .kolonks_4, .kolonks_3 {
+        padding-top: 34px;
+    }
+    .marg {
+        font-size: 17px;
+    }
+    .carta_cont_adap{
+        height: 500px;
+    }
+}
+@media (max-width: 464px){
+    .marg {
+        font-size: 14px;
+    }
+}
+@media (max-width: 413px){
+    .container_colon_food, .container_colon_food2{
+        min-width: 300px !important;
+        width: 100% !important;
+        text-align: end;
+    }
+    .cddsdsf{
+        max-width: 450px;
+        width: 100%;
+    }
+}
+@media (max-width: 365px){
+    td.text_td{
+        max-width: 90px !important;
+    }
+}
+@media (max-width: 441px){
+    .carta_cont_adap{
+        height: 400px;
+        
+    }
+}
+@media (max-width: 381px){
+    .podopic, .podopic2, .podopic3, .podopic4 {
+        font-size: 13px;
+    }
+    .kolonks_1, .kolonks_2, .kolonks_4, .kolonks_3 {
+        padding-top: 38px;
+    }
+}
+@media (max-width: 1029px){
+    .color_none {
+        top: 21px;
+    }
+}
+@media (max-width: 895px){
+    .img_size{
+        margin-top: 90px;
+    }
+}
+@media (max-width: 505px){
+    .img_size{
+        margin-top: 163px;
+    }
+}
+@media (max-width: 490px){
+    .img_size{
+        margin-top: 184px;
+    }
+}
+@media (max-width: 376px){
+    .img_size{
+        margin-top: 215px;
+        max-width: 375px;
+    }
+}
+@media (max-width: 562px){
+    td{
+        font-size: 15px !important;
+    }
+    .breakfast, .snacks, .hot_drinks, .salads, .desserts {
+        font-size: 19px !important;
+        margin: 0;
+        padding-top: 5px;
+    }
+    .zavtral_food, .salat, .xolod_zakyski, .deser_foog, .gor_zakuski, .napitki_food, .alk_napitki, .dop_yslug_food {
+        width: 31px !important;
+        height: 31px;
+    }
+}
+@media (max-width: 498px){
+    td{
+        font-size: 15px !important;
+    }
+    .breakfast, .snacks, .hot_drinks, .salads, .desserts {
+        font-size: 17px !important;
+        margin: 0;
+        padding-top: 4px;
+    }
+    .zavtral_food, .salat, .xolod_zakyski, .deser_foog, .gor_zakuski, .napitki_food, .alk_napitki, .dop_yslug_food {
+        width: 32px !important;
+        height: 28px;
+    }
+}
+@media (max-width: 413px){
+    .zavtral_food, .salat, .xolod_zakyski, .deser_foog, .gor_zakuski, .napitki_food, .alk_napitki, .dop_yslug_food {
+        width: 30px !important;
+        height: 26px;
+    }
+    td {
+        font-size: 13px !important;
+    }
+    .container_colon_food{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    /* .cddsdsf{
+        width: 109%;
+    } */
+}
+/* Медиа-запрос для экрана шириной до 366px */
+@media (max-width: 366px) {
+    .container_colon_food .col {
+        flex: 1 1 100%;
+    }
+}
+@media (max-width: 955px){
+    .broni{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .popular_broni{
+        max-width: 918px;
+        /* width: 50%; */
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .acc_inf_user{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 100%;
+    }
+}
+@media (max-width: 893px){
+    
+}
+@media (max-width: 452px){
+    td{
+        font-size: 14px !important;
+    }
+    .breakfast, .snacks, .hot_drinks, .salads, .desserts {
+        margin: 0;
+        padding-top: 4px;
+    }
+    .zavtral_food, .salat, .xolod_zakyski, .deser_foog, .gor_zakuski, .napitki_food, .alk_napitki, .dop_yslug_food {
+        width: 32px !important;
+        height: 28px;
+    }
+}
+@media (max-width: 1224px){
+    td{
+        /* padding: 0 !important; */
+    }
+    .booking1 .row {
+        bottom: -73px;
+    }
+    .contact_textt {
+        right: 464px;
+        bottom: -74px;
+    }
+    .nomer_food {
+        bottom: 428px !important;
+    }
+    div.container{
+        margin: 0 auto !important;
+    }
+    img.bannerglav{
+        height: 375px;
+    }
+    .glav_text_hi{
+        font-size: 15px;
+    }
+    img.photo_glav{
+        max-width: 250px;
+        height: 180px !important;
+    }
+    .glav_text_hi{
+        text-align: center !important;
+    }
+    .photo_servise_glav{
+        max-width: 249px;
+    }
+    .delete_acc{
+        margin-right: 9px;
+    }
+}
+@media (max-width: 711px) {
+    .delete_acc, .red_acc{
+        font-size: 17px !important;
+}
+}
+@media (max-width: 1005px) {
+    .bloc_food, .bloc_food2{
+        padding: 0;
+    }
+}
+@media (max-width: 998px) {
+    .cont_snacks, .cont_breakfast{
+        margin-right: 3px;
+    }
+}
+@media (max-width: 872px) {
+    .knopka_people, .knopka_brooking, .knopka_kupit {
+        max-width: 130px;
+        font-size: 15px !important;
+    }
+    .knopka_people a, .knopka_brooking a, .knopka_kupit a {
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 819px) {
+.text_akva_podtext22 {
+    margin-left: 52px;
+    font-size: 16px !important;
+}
+}
+@media (max-width: 375px) {
+    p.summaa{
+        font-size: 15px;
+    }
+    img.favourites {
+        max-width: 30px;
+    }
+    }
+@media (max-width: 760px) {
+    .text_akva_zagol1 {
+        padding-top: 46px;
+    }
+}
+@media (max-width: 784px) {
+    .text_akva_podtext22 {
+        margin-left: 56px;
+        font-size: 16px !important;
+    }
+    }
+@media (max-width: 738px) {
+    .text_akva_podtext22 {
+        margin-left: 47px;
+        font-size: 16px !important;
+    }
+    .bannernomer{
+        height: 295px;
+    }
+}
+@media (max-width: 627px) {
+    .text_akva_zagol1 {
+    padding-top: 18px;
+    margin-left: 9%;
+    }
+    .text_akva_podtext22 {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 593px) {
+    .text_akva_zagol1 {
+    padding-top: 21px;
+    margin-left: 4%;
+    font-size: 24px;
+    }
+    .text_akva_podtext22 {
+        margin-left: 15px;
+        font-style: 14px !important;
+    }
+    .text_akva_zagol1 {
+        font-size: 21px;
+    }
+    .text_akva_podtext22 {
+        margin-left: 12px !important;
+        font-size: 12px !important;
+    }
+    .knopka_kupit {
+        width: 137px;
+        height: 26px !important;
+        margin-right: 120px !important;
+    }
+    .knopka_people a, .knopka_brooking a, .knopka_kupit a {
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 548px) {
+    .knopka_people, .knopka_brooking, .knopka_kupit {
+        max-width: 106px;
+        max-height: 24px;
+    }
+    .knopka_kupit a{
+        font-size: 14px;
+    }
+}
+@media (max-width: 510px) {
+    .text_akva_zagol1 {
+        font-size: 20px;
+    }
+    .text_akva_podtext22 {
+        margin-left: 11px;
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 963px) {
+    .text_akva_zagol1 {
+    padding-top: 10px;
+    }
+    /* .card_lk_broninew {
+        margin-left: 96px;
+    } */
+}
+@
+/* @media (max-width: 499px) {
+    .text_akva_zagol1 {
+    padding-top: 10px;
+    }
+    .card_lk_broninew {
+        margin-left: 96px;
+    }
+}
+@media (max-width: 480px) {
+    .card_lk_broninew {
+        margin-left: 89px;
+    }
+}
+@media (max-width: 454px) {
+    .card_lk_broninew {
+        margin-left: 77px;
+    }
+}
+@media (max-width: 430px) {
+    .card_lk_broninew {
+        margin-left: 61px;
+    }
+}
+@media (max-width: 412px) {
+    .card_lk_broninew {
+        margin-left: 54px;
+    }
+}
+
+@media (max-width: 496px) {
+    .card_lk_broninew {
+        margin-left: 44px;
+    }
+}
+@media (max-width: 486px) {
+    .card_lk_broninew {
+        margin-left: 37px;
+    }
+}
+@media (max-width: 396px) {
+    .card_lk_broninew {
+        margin-left: 44px;
+    }
+}
+@media (max-width: 386px) {
+    .card_lk_broninew {
+        margin-left: 37px;
+    }
+}
+@media (max-width: 367px) {
+    .card_lk_broninew {
+        margin-left: 29px;
+    }
+}
+@media (max-width: 353px) {
+    .card_lk_broninew {
+        margin-left: 21px;
+    }
+}
+@media (max-width: 340px) {
+    .card_lk_broninew {
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 597px) {
+    .card_lk_broninew {
+        margin-left: 145px;
+    }
+} */
+
+@media (max-width: 574px) {
+    .modal_uusluga{
+        min-width: 290px !important;
+        width: 100%;
+    }
+    select.vodila{
+        max-width: 180px !important;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 495px) {
+    .img_size{
+        margin-top: 120px;
+    }
+}
+@media (max-width: 494px) {
+    .img_size{
+        margin-top: 183px;
+    }
+}
+@media (max-width: 376px) {
+    .img_size{
+        margin-top: 218px;
+    }
+}
+@media (max-width: 471px) {
+    .text_akva_zagol1 {
+    padding-top: 6px;
+    }
+}
+@media (max-width: 463px) {
+    .text_akva_zagol1 {
+    padding-top: 3px;
+    }
+}
+@media (max-width: 453px) {
+    .text_akva_zagol1 {
+    font-size: 18px;
+    padding-top: 8px;
+    }
+    .text_akva_podtext22 {
+        font-size: 10px !important;
+    }
+}
+@media (max-width: 432px) {
+    .text_akva_zagol1 {
+        font-size: 16px;
+    }
+}
+@media (max-width: 436px) {
+    p.summa{
+        font-size: 16px;
+    }
+}
+@media (max-width: 421px) {
+    .text_akva_zagol1 {
+        font-size: 15px;
+        padding-top: 3px;
+    }
+    .knopka_people, .knopka_brooking, .knopka_kupit {
+        bottom: 19px !important;
+        max-width: 83px;
+        max-height: 20px;
+        font-size: 9px !important;
+    }
+    .knopka_people a, .knopka_brooking a, .knopka_kupit a {
+        font-size: 11px !important;
+    }
+}
+@media (max-width: 398px) {
+    .text_akva_zagol1 {
+        padding-top: 1px;
+    }
+}
+@media (max-width: 386px) {
+    .text_akva_podtext22 {
+        font-size: 8px !important;
+    }
+    .summa{
+        margin-right: 41px;
+    }
+}
+@media (max-width: 1070px){
+    .text_akva_podtext22{
+        margin-left: 5px;
+    }
+}
+@media (max-width: 1027px){
+    .text_akva_podtext22{
+        margin-left: 14px;
+    }
+}
+@media (max-width: 984px){
+    .text_akva_podtext22{
+        margin-left: 23px;
+    }
+}
+@media (max-width: 939px){
+    .text_akva_podtext22{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 902px){
+    .text_akva_podtext22{
+        margin-left: 39px;
+    }
+}
+@media (max-width: 872px){
+    .text_akva_podtext22{
+        margin-left: 46px;
+    }
+}
+@media (max-width: 351px) {
+    .summa {
+        margin-right: 31px;
+    }
+}
+@media (max-width: 359px) {
+    .cont_snacks, .cont_dessert, .cont_snacks, .cont_dessert, .cont_alko, .cont_dop{
+        width: 347px !important;
+    }
+}
+@media (max-width: 735px) {
+    .text_akva_zagol1 {
+        padding-top: 47px !important;
+    }
+}
+@media (max-width: 305px) {
+    .summa {
+        margin-right: 24px;
+    }
+}
+@media (max-width: 570px) {
+    .text_akva_zagol1 {
+        padding-top: 25px !important;
+    }
+}
+@media (max-width: 420px) {
+    .knopka_people a, .knopka_brooking a, .knopka_kupit a {
+        font-size: 10px !important;
+    }
+}
+@media (max-width: 915px) {
+    .knopka_people a, .knopka_brooking a, .knopka_kupit a {
+        bottom: 0;
+        width: 136px;
+        height: 28px !important;
+        font-size: 16px;
+    }
+    .knopka_kupit a{
+        font-size: 14px;
+    }
+}
+@media (max-width: 987px){
+    .akva_komplex, .akva_pool, .akva_care, .akva_gym, .akva_bar{
+        font-size: 18px !important;
+    }
+    .col_ysluga_img, .col_ysluga_img{
+        max-height: 250px;
+    }
+}
+@media (max-width: 990px){
+    .akva_komplex, .akva_pool, .akva_care, .akva_gym, .akva_bar{
+        font-size: 20px;
+    }
+    .logo_glav{
+        width: 170px !important;
+        height: 80px !important;
+    }
+}
+@media (max-width: 908px){
+    .glav_text_hi{
+        font-size: 13px;
+        text-align: center !important;
+    }
+    .text_glav_hii, .text_glav1{
+        width: 587px;
+        text-align: center;
+    }
+    .zagol{
+        font-size: 20px;
+     }
+     .col_ysluga_img, .col_ysluga_img{
+        max-height: 240px;
+    }
+}
+@media (max-width: 878px){
+     .col_ysluga_img, .col_ysluga_img{
+        max-height: 200px;
+    }
+}
+@media (max-width: 792px){
+    .col_ysluga_img, .col_ysluga_img{
+       max-height: 180px;
+   }
+}
+@media (max-width: 775px){
+    .col_ysluga_img, .col_ysluga_img{
+       max-height: 180px;
+   }
+}
+@media (max-width: 768px){
+    div.text_glav1{
+        text-align: center !important;
+       max-width: 762px !important;
+        margin-top: 10px !important;
+    }
+    h2.text_glav1{
+        margin: 0 auto!important;
+    }
+    div.nomer{
+        max-width: 214px !important;
+        height: 70px;
+        margin-right: -181px;
+        margin-bottom: -29px;
+    }
+    p.nom{
+        font-size: 34px !important;
+    }
+    .booking1 .row{
+        right: 4px !important;
+        max-width: 760px;
+    }
+    .contact_textt{
+        max-width: 214px !important;
+        height: 70px;
+        margin-right: -181px;
+        margin-bottom: 16px;
+    }
+    p.contacttt{
+        font-size: 34px !important;
+    }
+    img.visitca_cont{
+        max-width: 743px !important;
+    }
+    div.color_none{
+        max-height: 265px !important;
+        max-width: 668px !important;
+    }
+    .kolonks_1, .kolonks_2, .kolonks_3, .kolonks_4{
+        font-size: 14px;
+    }
+    .kolonks_3, .kolonks_4{
+        margin-top: -38px !important;
+    }
+    a.tel_con{
+        font-size: 14px !important;
+    }
+    .uslugi_otele{  
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .description_taxi, .description_parcovka, .description_gor, .description_poxod, .description_procat{
+        font-size: 17px;
+    }
+    .block_text_inforn {
+       max-width: 300px;
+    }
+    .col_ysluga_img, .col_ysluga_img{
+        max-width: 300px !important;
+        max-height: 170px !important;
+    }
+}
+@media (max-width: 752px){
+    .zagol{
+        font-size: 16px;
+    }
+}
+@media (max-width: 748px){
+    .zagol{
+        font-size: 15px;
+    }
+    .zagol_podtext1{
+        font-size: 12px;
+    } 
+    img.photo_glav {
+        max-width: 217px;
+        height: 157px !important;
+    }
+    .logo_glav {
+        width: 159px !important;
+        height: 60px !important;
+    }
+    .photo_servise_glav{
+        max-width: 217px;
+    }
+}
+@media (max-width: 649px){
+    img.photo_glav {
+        max-width: 193px;
+        height: 144px !important;
+   }
+    .logo{
+        width: 200px;
+    } 
+    .photo_servise_glav{
+        max-width: 193px;
+    }
+    .block_text_inforn {
+        max-width: 280px !important;
+        font-size: 14px !important;
+     }
+     .col_ysluga_img, .col_ysluga_img{
+         max-width: 280px !important;
+         max-height: 152px !important;
+     }
+}
+@media(max-width: 660px){
+    .bannernomer{
+        max-height: 298px !important;
+    }
+    .text_akva_zagol1 {
+        font-size: 22px;
+    }
+    .text_akva_podtext22 {
+        margin-left: 41px;
+        font-size: 13px !important;
+    }
+    .knopka_people, .knopka_brooking, .knopka_kupit {
+        max-width: 113px;
+        max-height: 24px;
+    }
+    .knopka_kupit a{
+        font-size: 15px !important;
+    }
+}
+@media(max-width: 626px){
+    .text_akva_podtext22 {
+        margin-left: 29px;
+    }
+    .knopka_kupit {
+        width: 154px;
+        height: 27px !important;
+        margin-right: 122px !important;
+    }
+    .text_akva_zagol1 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 599px){
+    .procat{
+        max-width: 400px !important;
+    }
+}
+@media (max-width: 599px){
+    img.photo_glav {
+        max-width: 411px;
+        height: 234px !important;
+    }
+    .text_glav_hii, .text_glav1 {
+        width: 420px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .photo_glav_obzor{
+        display: none;
+    }
+    .photo_servise_glav{
+        max-width: 373px;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .photo_glav_obzor2{
+        display: inline;
+    }
+    .photo {
+        display: none !important;
+    }
+    .photo2{
+        display: inline !important;
+        vertical-align: middle;
+        margin: 0 auto !important;
+    }
+    .block_text_inforn {
+        max-width: 280px !important;
+        font-size: 12px !important;
+     }
+     .col_ysluga_img, .col_ysluga_img{
+         max-width: 280px !important;
+         max-height: 142px !important;
+     }
+    
+}
+@media (max-width: 550px){
+    .text_footer1{
+        font-size: 12px;
+    }
+    .text_footer{
+        font-size: 12px;
+    }
+    a.tel{
+        font-size: 12px !important;
+    }
+    .prava{
+        font-size: 12px;
+    }
+    .logo {
+        width: 163px;
+    }
+    .knopka_kupit {
+        width: 135px;
+        height: 26px !important;
+        margin-right: 111px !important;
+    }
+}
+@media (max-width: 543px){
+    .img_size{
+        display: block;
+        align-items: flex-end;
+    }
+    .container_img{
+        display: flex;
+        justify-content: center;
+    }
+    .block222{
+    display: unset;
+    }
+    .block2{
+        display: none;
+    }
+    .block1, .block2{
+        margin: 0 auto;
+    }
+    .bloc_img_nomer2, .bloc_inf_nomer2{
+        margin: 0 auto;
+    }
+    .bk12{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 421px){
+    .knopka_people a, .knopka_brooking a, .knopka_kupit a {
+        font-size: 11px;
+    }
+}
+@media (max-width: 398px){
+    .knopka_kupit {
+        .knopka_kupit {
+            margin-right: 85px !important;
+        }
+    }
+    .knopka_people a, .knopka_brooking a, .knopka_kupit a {
+        font-size: 11px !important;
+    }
+
+}
+@media (max-width: 705px){
+    .container_akva1{
+        display: none;
+        max-width: 400px;
+    }
+    .container_akva2{
+        display: none;
+    }
+    .container_akva3{
+        display: none;
+    }
+    .container_akva4{
+        display: none;
+    }
+    .container_akva1111111 {
+        display: unset;
+        margin: 0 auto;
+    }
+    .container_akva22121{
+        display: unset;
+        margin: 0 auto;
+    }
+    .container_akva3333333{
+        display: unset;
+        margin: 0 auto;
+    }
+    .container_akva4444444{
+        display: unset;
+        margin: 0 auto;
+    }
+    .photo_akva1, .photo_akva2_1, .photo_akva3_1, .photo_akva4_1{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .akca_adap_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .bl_akva_adap{
+        margin: 0;
+    }
+}
+@media (max-width: 455px){
+    .col_ysluga_img, .col_ysluga_img{
+        max-height: 133px !important;
+    }
+    .procat{
+        max-width: 328px !important;
+    }
+    .taxi_zagol, .parcovka_zagol, .gor_zagol, .poxod_zagol {
+        font-size: 20px;
+    }
+}
+@media (max-width: 451px){
+    .akva_komplex, .akva_pool, .akva_care, .akva_gym, .akva_bar {
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 360px){
+    .akva {
+        font-size: 23px !important;
+    }
+    .text {
+        height: 82px;
+    }
+    .akva_komplex, .akva_pool, .akva_care, .akva_gym, .akva_bar {
+        font-size: 13px !important;
+    }
+    .container_colon_food{
+        min-width: 300px;
+    }
+}
+
+
+@media (max-width: 336px){
+    .photo_akva1, .photo_akva2_1, .photo_akva3_1, .photo_akva4_1 {
+        width: 272px;
+    }
+}
+@media (max-width: 455px){
+    .col_ysluga_img, .col_ysluga_img{
+        max-height: 122px !important;
+    }
+    .procat{
+        max-width: 277px !important;
+    }
+    .taxi_zagol, .parcovka_zagol, .gor_zagol, .poxod_zagol, .procat_zagol{
+        font-size: 20px;
+    }
+}
+@media (max-width: 455px){
+    .glav_text_hi {
+        font-size: 11px;
+        text-align: center !important;
+    }
+    .zagol_podtext1 {
+        font-size: 11px;
+    }
+    .text_glav_hii, .text_glav1 {
+        width: 382px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .akva{
+        font-size: 25px !important;
+    }
+}
+@media (max-width: 426px){
+    .glav_text_hi {
+        font-size: 11px;
+        text-align: center !important;
+    }
+    .text_glav_hii{
+        display: none !important;
+    }
+    .text_glav_hii22222{
+        display: initial !important;
+    }
+    .photo_glav{
+        max-width: 273px !important;
+    }
+    .photo_servise_glav{
+        max-width: 273px !important;
+    }
+}
+@media (max-width: 433px){
+    .photo_akva1, .photo_akva2_1, .photo_akva3_1, .photo_akva4_1 {
+        width: 350px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 413px){
+    .col_ysluga_img, .col_ysluga_img{
+        max-height: 111px !important;
+    }
+    .procat{
+        max-width: 277px !important;
+    }
+    .taxi_zagol, .parcovka_zagol, .gor_zagol, .poxod_zagol, .procat_zagol{
+        font-size: 15px;
+    }
+    .description_taxi, .description_parcovka, .description_gor, .description_poxod, .description_procat {
+        font-size: 10px;
+    }
+}
+@media (max-width: 404px){
+    .glav_text_hi2222 {
+        font-size: 9px !important;
+        text-align: center !important;
+    }
+}
+@media (max-width: 1499px){
+    .booking1 .row {
+        bottom: 107px;
+    }
+}
+@media (max-width: 1242px){
+    .booking1 .row {
+        bottom: 107px;
+    }
+}
+@media (max-width: 376px){
+    div.text_glav1 {
+        margin-left: -16px;
+    }
+}
+@media (max-width: 364px){
+    div.text_glav1 {
+        width: 309px;
+        margin-left: 7px;
+    }
+}
+@media (max-width: 332px){
+div.text_glav1 {
+    width: 304px;
+    margin-left: 0px;
+}
+}
+@media (max-width: 322px) {
+    div.text_glav1 {
+        width: 303px;
+        margin-left: -4px;
+    }
+}
+@media (max-width: 502px) {
+img.bannerglav {
+    height: 231px;
+}
+}
